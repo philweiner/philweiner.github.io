@@ -162,3 +162,9 @@ body {
     margin: 10px 0 40px 10px;
   }
 }
+
+@media (max-width: 470px) {
+  .showcase .module h3 {
+    font-size: 25px;
+  }
+}
