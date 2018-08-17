@@ -1,16 +1,18 @@
 <html>
 
-  <script type="text/javascript">
-    function detectBrowser() {
-      var slashIndex = window.location.href.lastIndexOf("/");
-      var cropped = window.location.href.slice(0, slashIndex + 1);
+<script type="text/javascript">
 
-      window.location.replace(cropped + "tmcassets/player/KeynoteDHTMLPlayer.html");
-    }
+function detectBrowser()
+{
+    var slashIndex = window.location.href.lastIndexOf("/");
+    var cropped = window.location.href.slice(0,slashIndex+1);
 
-  </script>
+    window.location.replace(cropped + "assets/player/KeynoteDHTMLPlayer.html");
+}
 
-  <body bgcolor="black" onload="detectBrowser()">
-  </body>
+</script>
+
+<body bgcolor="black" onload="detectBrowser()">
+</body>
 
 </html>
